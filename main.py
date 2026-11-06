@@ -17,7 +17,7 @@ deck.shuffle()
 #for _ in range(51):
  #   deck.deal()
 for _ in range(2):
-    player.require_card(deck)
+    player.request_card(deck)
 
 player.print_hand()
-
+print(player.calculate_score())
